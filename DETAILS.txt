@@ -1,0 +1,1 @@
+App.vue will route to the "Main.vue," "NotFound.vue," "AllProjects.vue," and "AllCertificates.vue,"
