@@ -9,7 +9,7 @@ import Certificate from '@/components/cards/CertificateCard.vue';
         <div class="proj-grid grid grid-cols-[repeat(auto-fit,500px)] auto-rows-[450px] justify-center gap-8 mt-10 w-full h-full overflow-visible box-border">
             <Certificate class="certif" DisplayImg="/images/skyscanner-certificate.jpg" CertificateLink="/documents/skyscanner-certificate.pdf"/>
             <Certificate class="certif" DisplayImg="/images/hpe-certificate.jpg" CertificateLink="/documents/hpe-certificate.pdf"/>
-            <Certificate class="certif" DisplayImg="/images/EA-certificate.jpg" CertificateLink="/documents/EA-Certificate.pdf"/>
+            <Certificate class="certif" DisplayImg="/images/EA-Certificate.jpg" CertificateLink="/documents/EA-Certificate.pdf"/>
             <Certificate class="certif" DisplayImg="/images/6.jpg" CertificateLink="https://www.udemy.com/certificate/UC-7fd1385b-1a92-40fe-83a7-e9aa8732e9d8"/>
             <Certificate class="certif" DisplayImg="/images/7.jpg" CertificateLink="https://www.udemy.com/certificate/UC-972b6692-472a-4653-a2bd-6480fd0f82e0"/>
             <Certificate class="certif" DisplayImg="/images/8.jpg" CertificateLink="https://www.udemy.com/certificate/UC-1fe2b67e-34e2-44b5-b9dc-526cc0245d8d"/>
