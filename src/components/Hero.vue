@@ -61,7 +61,7 @@ onBeforeUnmount(() => {
         </div>
         <div class="card card3 absolute bg-[#242424] w-[100vw] h-[800px] z-10 rounded-bl-[50px] rounded-br-[50px]">
             <div class="hero-buttons grid grid-cols-3 p-10 gap-4 mt-[580px]">
-                <a href="/whatsnew">
+                <router-link to="/whatsnew">
                     <HeroButton header="What's New" subtext="See what I've been up to">
                         <template #icon>
                             <svg class="iconSvg absolute mr-[20px] ml-[10px] left-0 top-[15px] w-[auto] h-[70px] fill-[#ffffff56]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
@@ -69,8 +69,8 @@ onBeforeUnmount(() => {
                             </svg>
                         </template>
                     </HeroButton>
-                </a>
-                <a href="/projects">
+                </router-link>
+                <router-link to="/projects">
                     <HeroButton header="My Projects" subtext="Explore what I've built">
                         <template #icon>
                             <svg class="iconSvg absolute mr-[20px] ml-[10px] left-0 top-[15px] w-[auto] h-[70px] fill-[#ffffff56]" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"  width="22" height="22" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd;">
@@ -78,8 +78,8 @@ onBeforeUnmount(() => {
                             </svg>
                         </template>
                     </HeroButton>
-                </a>
-                <a href="/certificates">
+                </router-link>
+                <router-link to="/certificates">
                     <HeroButton header="My Certificates" subtext="View my achievements">
                         <template #icon>
                             <svg class="iconSvg absolute mr-[20px] ml-[10px] left-0 top-[10px] w-[auto] h-[70px] fill-[#ffffff56]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25" height="25" style="shape-rendering:geometricPrecision; fill-rule:evenodd; margin-top: 1px;">
@@ -87,7 +87,7 @@ onBeforeUnmount(() => {
                             </svg>
                         </template>
                     </HeroButton>
-                </a>
+                </router-link>
                 
             </div>
         </div>
