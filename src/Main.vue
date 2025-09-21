@@ -10,7 +10,7 @@ import Contact from "@/components/Contact.vue"
 <template>
 <div class="sections">
     <!-- Hero Section -->
-    <section id="hero" class="hero-section h-[100vh] w-[100vw] pt-0">
+    <section id="hero" class="hero-section h-[115vh] w-[100vw] pt-0">
         <Hero />
     </section>
 
