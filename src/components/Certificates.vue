@@ -58,7 +58,7 @@ const carouselConfig2 = {
             </Slide>
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="s/images/7.jpg" CertificateLink="https://www.udemy.com/certificate/UC-972b6692-472a-4653-a2bd-6480fd0f82e0"/>
+                    <Certificate class="certif" DisplayImg="/images/7.jpg" CertificateLink="https://www.udemy.com/certificate/UC-972b6692-472a-4653-a2bd-6480fd0f82e0"/>
                 </div>
             </Slide>
             <Slide>
