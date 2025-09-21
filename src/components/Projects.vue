@@ -32,9 +32,9 @@ import Project from "@/components/cards/ProjectCard.vue";
         />
     </div>
     <div class="flex justify-center">
-        <a href="/projects" class="btn transition-[0.2s] mt-20 bottom-0 w-[250px] h-[75px] bg-[#2a2a2a] border-[#3f3f3f] border-[3px] flex items-center justify-center rounded-[30px] mb-[15px] text-white z-20">
+        <router-link to="/projects" class="btn transition-[0.2s] mt-20 bottom-0 w-[250px] h-[75px] bg-[#2a2a2a] border-[#3f3f3f] border-[3px] flex items-center justify-center rounded-[30px] mb-[15px] text-white z-20">
             <span class="font-[altone-bold] text-2xl">See All →</span>
-        </a>
+        </router-link>
     </div>
     
 </template>
