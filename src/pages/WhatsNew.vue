@@ -8,7 +8,14 @@ import SeeMore from '../components/cards/SeeMoreCard.vue';
         <h2 class="text-center text-[#1f1f1f] font-[outfit-9] text-[2.5rem] whitespace-nowrap hidden">What's New</h2>
         
 
-
+        <div class="see-more mt-7 mx-14 mb-10 rounded-[50px]"> 
+            <SeeMore 
+                title="Completed Google's UI/UX course on Coursera"
+                date="September 21, 2025"
+                description="I've just completed Google's Coursera course titled &quot;Design a User Experience for Social Good & Prepare for Jobs&quot; which teaches me user experience fundamentals along with a brief introduction on UI and how to prepare to successfully interview for an entry-level UX design job.
+                In addition, i've completed Google's &quot;Accelerate Your Job Search with AI&quot; course which helps me explore new career possibilities and build a stand out resume with a step-by-step job search plan."
+            />
+        </div>
 
 
 
