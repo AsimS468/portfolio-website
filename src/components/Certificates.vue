@@ -53,7 +53,7 @@ const carouselConfig2 = {
             </Slide>
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/EA-certificate.jpg" CertificateLink="/documents/EA-certificate.pdf"/>
+                    <Certificate class="certif" DisplayImg="/images/EA-Certificate.jpg" CertificateLink="/documents/EA-certificate.pdf"/>
                 </div>
             </Slide>
             <Slide>
@@ -93,7 +93,7 @@ const carouselConfig2 = {
             </Slide>
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/EA-certificate.jpg" CertificateLink="/documents/EA-certificate.pdf"/>
+                    <Certificate class="certif" DisplayImg="/images/EA-Certificate.jpg" CertificateLink="/documents/EA-certificate.pdf"/>
                 </div>
             </Slide>
             <Slide>
