@@ -38,7 +38,7 @@ const carouselConfig2 = {
         <Carousel v-bind="carouselConfig1">
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/google-1.jpg" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
+                    <Certificate class="certif" DisplayImg="/images/google-1.png" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
                 </div>
             </Slide>
             <Slide>
@@ -78,7 +78,7 @@ const carouselConfig2 = {
         <Carousel  v-bind="carouselConfig2">
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/google-1.jpg" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
+                    <Certificate class="certif" DisplayImg="/images/google-1.png" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
                 </div>
             </Slide>
             <Slide>
