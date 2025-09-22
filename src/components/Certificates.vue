@@ -38,44 +38,9 @@ const carouselConfig2 = {
         <Carousel v-bind="carouselConfig1">
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/skyscanner-certificate.jpg" CertificateLink="/documents/skyscanner-certificate.pdf"/>
+                    <Certificate class="certif" DisplayImg="/images/google-1.jpg" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
                 </div>
             </Slide>
-            <Slide>
-                <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/hpe-certificate.jpg" CertificateLink="/documents/hpe-certificate.pdf"/>
-                </div>
-            </Slide>
-            <Slide>
-                <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/EA-Certificate.jpg" CertificateLink="/documents/EA-certificate.pdf"/>
-                </div>
-            </Slide>
-            <Slide>
-                <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/IC.jpg" CertificateLink="https://www.coursera.org/account/accomplishments/specialization/HB6N75LG2K6B"/>
-                </div>
-            </Slide>
-            <Slide>
-                <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/7.jpg" CertificateLink="https://www.udemy.com/certificate/UC-972b6692-472a-4653-a2bd-6480fd0f82e0"/>
-                </div>
-            </Slide>
-            <Slide>
-                <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/8.jpg" CertificateLink="https://www.udemy.com/certificate/UC-1fe2b67e-34e2-44b5-b9dc-526cc0245d8d"/>
-                </div>
-            </Slide>
-
-            <template #addons>
-                <!-- <Navigation /> -->
-                <Pagination />
-            </template>
-        </Carousel>
-    </div>
-
-    <div class="carousel-sm py-10 bg-[#6b6b6b] mt-10 mx-5 rounded-[50px]">
-        <Carousel  v-bind="carouselConfig2">
             <Slide>
                 <div class="carousel__item">
                     <Certificate class="certif" DisplayImg="/images/skyscanner-certificate.jpg" CertificateLink="/documents/skyscanner-certificate.pdf"/>
@@ -101,18 +66,53 @@ const carouselConfig2 = {
                     <Certificate class="certif" DisplayImg="/images/7.jpg" CertificateLink="https://www.udemy.com/certificate/UC-972b6692-472a-4653-a2bd-6480fd0f82e0"/>
                 </div>
             </Slide>
+
+            <template #addons>
+                <!-- <Navigation /> -->
+                <Pagination />
+            </template>
+        </Carousel>
+    </div>
+
+    <div class="carousel-sm py-10 bg-[#6b6b6b] mt-10 mx-5 rounded-[50px]">
+        <Carousel  v-bind="carouselConfig2">
             <Slide>
                 <div class="carousel__item">
-                    <Certificate class="certif" DisplayImg="/images/8.jpg" CertificateLink="https://www.udemy.com/certificate/UC-1fe2b67e-34e2-44b5-b9dc-526cc0245d8d"/>
+                    <Certificate class="certif" DisplayImg="/images/google-1.jpg" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
+                </div>
+            </Slide>
+            <Slide>
+                <div class="carousel__item">
+                    <Certificate class="certif" DisplayImg="/images/skyscanner-certificate.jpg" CertificateLink="/documents/skyscanner-certificate.pdf"/>
+                </div>
+            </Slide>
+            <Slide>
+                <div class="carousel__item">
+                    <Certificate class="certif" DisplayImg="/images/hpe-certificate.jpg" CertificateLink="/documents/hpe-certificate.pdf"/>
+                </div>
+            </Slide>
+            <Slide>
+                <div class="carousel__item">
+                    <Certificate class="certif" DisplayImg="/images/EA-certificate.jpg" CertificateLink="/documents/EA-certificate.pdf"/>
+                </div>
+            </Slide>
+            <Slide>
+                <div class="carousel__item">
+                    <Certificate class="certif" DisplayImg="/images/IC.jpg" CertificateLink="https://www.coursera.org/account/accomplishments/specialization/HB6N75LG2K6B"/>
+                </div>
+            </Slide>
+            <Slide>
+                <div class="carousel__item">
+                    <Certificate class="certif" DisplayImg="/images/7.jpg" CertificateLink="https://www.udemy.com/certificate/UC-972b6692-472a-4653-a2bd-6480fd0f82e0"/>
                 </div>
             </Slide>
         </Carousel>
     </div>
 
     <div class="flex justify-center">
-        <router-link to="/certificates" class="btn transition-[0.2s] mt-10 mb-25 bottom-0 w-[250px] h-[75px] bg-[#2a2a2a] border-[#3f3f3f] border-[3px] flex items-center justify-center rounded-[30px] text-white z-20">
+        <a href="/certificates" class="btn transition-[0.2s] mt-10 mb-25 bottom-0 w-[250px] h-[75px] bg-[#2a2a2a] border-[#3f3f3f] border-[3px] flex items-center justify-center rounded-[30px] text-white z-20">
             <span class="font-[altone-bold] text-2xl">See All →</span>
-        </router-link>
+        </a>
     </div>
 
 </template>
