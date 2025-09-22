@@ -7,6 +7,8 @@ import Certificate from '@/components/cards/CertificateCard.vue';
         <h1 class="text-center font-[outfit-9] text-[2.5rem] whitespace-nowrap">Badges of Honor</h1>
         <h2 class="text-center font-[outfit-9] text-[2.5rem] whitespace-nowrap hidden">CERTIFICATES</h2>
         <div class="proj-grid grid grid-cols-[repeat(auto-fit,500px)] auto-rows-[450px] justify-center gap-8 mt-10 w-full h-full overflow-visible box-border">
+            <Certificate class="certif" DisplayImg="/images/Google-2.png" CertificateLink="https://www.coursera.org/account/accomplishments/verify/TSIMX0H5DOK7"/>
+            <Certificate class="certif" DisplayImg="/images/google-1.png" CertificateLink="https://www.coursera.org/account/accomplishments/verify/JYP6MXGEJJIU"/>
             <Certificate class="certif" DisplayImg="/images/skyscanner-certificate.jpg" CertificateLink="/documents/skyscanner-certificate.pdf"/>
             <Certificate class="certif" DisplayImg="/images/hpe-certificate.jpg" CertificateLink="/documents/hpe-certificate.pdf"/>
             <Certificate class="certif" DisplayImg="/images/EA-Certificate.jpg" CertificateLink="/documents/EA-Certificate.pdf"/>
