@@ -36,7 +36,7 @@
                 </a>
             </li>
             </ul>
-            <a href="src/assets/documents/Muhammad_Asim_Salman_Resume.pdf" target="_blank"> 
+            <a href="/documents/Muhammad_Asim_Salman_Resume.pdf" target="_blank"> 
                 <button class="resume-btn bg-[#3a3a3a] hover:w-[200px] flex items-center justify-start w-[200px] h-[45px] rounded-[10px] cursor-pointer relative overflow-hidden">
                     <span class="resume-text pl-[10px] text-[#b5b5b5] text-[1.2em] text-center font-[outfit-9] justify-center ml-">Download Resume</span>
                 </button>
